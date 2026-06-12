@@ -16,5 +16,5 @@ jobs:
         run: terraform init
 
       - name: Terraform validate
-        run: terraform validate:wq
+        run: terraform validate
 
